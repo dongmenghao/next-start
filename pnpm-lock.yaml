@@ -18,6 +18,7 @@ specifiers:
   eslint-plugin-unicorn: ^48.0.1
   next: ^13.5.3
   postcss: ^8.4.30
+  postcss-pxtorem: ^6.0.0
   prettier: ^3.0.3
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -46,6 +47,7 @@ devDependencies:
   eslint-plugin-react: registry.npmmirror.com/eslint-plugin-react/7.33.2_eslint@8.50.0
   eslint-plugin-unicorn: registry.npmmirror.com/eslint-plugin-unicorn/48.0.1_eslint@8.50.0
   postcss: registry.npmmirror.com/postcss/8.4.30
+  postcss-pxtorem: registry.npmmirror.com/postcss-pxtorem/6.0.0_postcss@8.4.30
   prettier: registry.npmmirror.com/prettier/3.0.3
   tailwindcss: registry.npmmirror.com/tailwindcss/3.3.3
   typescript: registry.npmmirror.com/typescript/5.2.2
@@ -3137,6 +3139,17 @@ packages:
     dependencies:
       postcss: registry.npmmirror.com/postcss/8.4.30
       postcss-selector-parser: registry.npmmirror.com/postcss-selector-parser/6.0.13
+    dev: true
+
+  registry.npmmirror.com/postcss-pxtorem/6.0.0_postcss@8.4.30:
+    resolution: {integrity: sha512-ZRXrD7MLLjLk2RNGV6UA4f5Y7gy+a/j1EqjAfp9NdcNYVjUMvg5HTYduTjSkKBkRkfqbg/iKrjMO70V4g1LZeg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss-pxtorem/-/postcss-pxtorem-6.0.0.tgz}
+    id: registry.npmmirror.com/postcss-pxtorem/6.0.0
+    name: postcss-pxtorem
+    version: 6.0.0
+    peerDependencies:
+      postcss: ^8.0.0
+    dependencies:
+      postcss: registry.npmmirror.com/postcss/8.4.30
     dev: true
 
   registry.npmmirror.com/postcss-selector-parser/6.0.13:
